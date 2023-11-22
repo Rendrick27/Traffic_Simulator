@@ -3,6 +3,8 @@ import time
 import random
 import psutil
 
+# Link Github https://github.com/Rendrick27/Traffic_Simulator
+
 class Semaphore:
     def __init__(self, lanes):
         """
