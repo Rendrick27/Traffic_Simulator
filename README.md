@@ -41,6 +41,7 @@ This project is a traffic simulator that aims to simulate the flow of traffic at
 4. Follow the on-screen prompts to start the simulation, view credits, or exit the program.
 
 ## Credits
-   - Rendrick Carreira 
-   - João Ribeiro
+   - [@Rendrick27](https://github.com/Rendrick27)
+   - [@joao-ribeirooo](https://github.com/joao-ribeirooo)
+
 

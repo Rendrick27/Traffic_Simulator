@@ -110,11 +110,16 @@ class Intersection:
         """
         Simulate an unexpected event at the intersection.
         
-        There is a 5% chance of an unexpected event occurring.
+        There is a 1% chance of an unexpected event occurring.
         """
-        if random.random() < 0.05:
+        if random.random() < 0.01:
             print("Unexpected event: Change in traffic rules!")
-            # Logic to handle the unexpected event, if necessary
+
+            # Simulate a random change in the priority lane
+            new_priority_lane = random.choice(["A", "B"])
+            print(f"New priority lane: {new_priority_lane}")
+
+            self.semaphore.set_priority(new_priority_lane)
 
 class Car(multiprocessing.Process):
     def __init__(self, id, intersection, lane):
