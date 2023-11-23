@@ -38,7 +38,6 @@ class Semaphore:
 
         If more than 5 cars are in the queue, increase green light duration.
         If fewer than 3 cars are in the queue and the current duration is greater than 1, decrease it.
-        If there is a priority lane with cars, increase the duration.
         """
         cars_in_queue = self.get_number_of_cars_in_queue()
         if cars_in_queue > 5:
